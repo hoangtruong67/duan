@@ -28,13 +28,14 @@
     </div>
 </div>
 <script>
-    function validateForm(){
-        let x =document.getElementById("tloai").value;
-        let text;
-        if(x ==""){
-            text="tên loại ko dc bỏ trống";
-        document.getElementById("tenloai").innerHTML=text;
+    function validateForm() {
+    let x = document.getElementById("tloai").value;
+    let text;
+    if (x == "") {
+        text = "Tên loại không được để trống";
+        document.getElementById("tenloai").innerHTML = text;
         return false;
         }
     }
 </script>
+
