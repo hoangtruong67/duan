@@ -34,9 +34,7 @@
                             </table>
                         </div>
                         <div class="row mb10 mt10">
-                            <input type="button" class="mr5" value="Chọn tất cả">
-                            <input type="button" class="mr5" value="Bỏ chọn tất cả">
-                            <input type="button" value="Xóa các mục tất tả">
+                           
                             <a href="index.php?act=adddm"><input type="button" value="Thêm mới"></a>    
                         </div>
                     </form> 
